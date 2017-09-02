@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ung Notification</string>
+    <string name="title">This is Title</string>
+    <string name="message">This is Text Message</string>
 </resources>

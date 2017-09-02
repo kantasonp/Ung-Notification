@@ -23,10 +23,10 @@ public class ShowNotification extends AppCompatActivity {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
         builder.setSmallIcon(R.drawable.doremon48);
-        builder.setTicker("Driving Better");
+        builder.setTicker("MasterUNG Alert");
         builder.setWhen(System.currentTimeMillis());
-        builder.setContentTitle("ระยะเกิน");
-        builder.setContentText("ถึงเวลา แว้ววววว");
+        builder.setContentTitle(getString(R.string.title));
+        builder.setContentText(getString(R.string.message));
         builder.setAutoCancel(false);
 
 
